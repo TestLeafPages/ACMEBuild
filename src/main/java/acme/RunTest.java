@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 public class RunTest {
 	
 	@Test
-	public void runTest() {
+	public void runTest() { // for chrome
 		
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
